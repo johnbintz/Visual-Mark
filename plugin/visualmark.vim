@@ -27,6 +27,7 @@ endif
 "  Public Interface:
 if !hasmapto('<Plug>Vm_toggle_sign')
   map <unique> <c-F2> <Plug>Vm_toggle_sign
+  map <unique> <S-M><S-M> <Plug>Vm_toggle_sign
 endif
 nnoremap <silent> <script> <Plug>Vm_toggle_sign	:call Vm_toggle_sign()<cr>
 
